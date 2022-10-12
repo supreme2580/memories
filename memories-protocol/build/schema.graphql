@@ -1,0 +1,7 @@
+type Memory @entity {
+  id: ID!
+  memoryId: Bytes!
+  imageUrl: String!
+  imageDate: String!
+  owner: Bytes!
+}

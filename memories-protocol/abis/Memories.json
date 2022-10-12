@@ -1,0 +1,55 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "memoryId",
+        "type": "bytes32"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "imageUrl",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "imageDate",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "owner",
+        "type": "address"
+      }
+    ],
+    "name": "NewMemoryCreated",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      { "internalType": "string", "name": "imageUrl", "type": "string" },
+      { "internalType": "string", "name": "imageDate", "type": "string" }
+    ],
+    "name": "createNewMemory",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+    "name": "idToMemory",
+    "outputs": [
+      { "internalType": "bytes32", "name": "memoryId", "type": "bytes32" },
+      { "internalType": "string", "name": "imageUrl", "type": "string" },
+      { "internalType": "string", "name": "imageDate", "type": "string" },
+      { "internalType": "address", "name": "owner", "type": "address" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "name": "memories-smart-contract",
+  "version": "1.0.0",
+  "description": "Smart contract for memories by Victor Omorogbe",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network mumbai"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "dotenv": "^16.0.2"
+  }
+}
